@@ -32,37 +32,37 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.журналыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.заказыКлиентовToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.оплатаЗаказовToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.кассаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
+            this.журналЗаявокToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.лабораторияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.заполнениеРезультатовToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.выполнениеРезультатовToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.результатыАнализовToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.спарвочникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.отчетыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.сервисToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
-            this.журналЗаявокToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.заполнениеРезультатовToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.выполнениеРезультатовToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.результатыАнализовToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton11 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton13 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton12 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
-            this.заказыКлиентовToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.оплатаЗаказовToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.кассаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripButton11 = new System.Windows.Forms.ToolStripButton();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -103,6 +103,47 @@
             this.журналыToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
             this.журналыToolStripMenuItem.Text = "Журналы";
             // 
+            // заказыКлиентовToolStripMenuItem
+            // 
+            this.заказыКлиентовToolStripMenuItem.Image = global::TerraClient.Properties.Resources.Orders;
+            this.заказыКлиентовToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.заказыКлиентовToolStripMenuItem.Name = "заказыКлиентовToolStripMenuItem";
+            this.заказыКлиентовToolStripMenuItem.Size = new System.Drawing.Size(177, 30);
+            this.заказыКлиентовToolStripMenuItem.Text = "Заказы клиентов";
+            this.заказыКлиентовToolStripMenuItem.Click += new System.EventHandler(this.заказыКлиентовToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(174, 6);
+            // 
+            // оплатаЗаказовToolStripMenuItem
+            // 
+            this.оплатаЗаказовToolStripMenuItem.Image = global::TerraClient.Properties.Resources.PayOrders;
+            this.оплатаЗаказовToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.оплатаЗаказовToolStripMenuItem.Name = "оплатаЗаказовToolStripMenuItem";
+            this.оплатаЗаказовToolStripMenuItem.Size = new System.Drawing.Size(177, 30);
+            this.оплатаЗаказовToolStripMenuItem.Text = "Оплата заказов";
+            // 
+            // кассаToolStripMenuItem
+            // 
+            this.кассаToolStripMenuItem.Image = global::TerraClient.Properties.Resources.Сashbox;
+            this.кассаToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.кассаToolStripMenuItem.Name = "кассаToolStripMenuItem";
+            this.кассаToolStripMenuItem.Size = new System.Drawing.Size(177, 30);
+            this.кассаToolStripMenuItem.Text = "Касса";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(174, 6);
+            // 
+            // журналЗаявокToolStripMenuItem
+            // 
+            this.журналЗаявокToolStripMenuItem.Name = "журналЗаявокToolStripMenuItem";
+            this.журналЗаявокToolStripMenuItem.Size = new System.Drawing.Size(177, 30);
+            this.журналЗаявокToolStripMenuItem.Text = "Журнал заявок";
+            // 
             // лабораторияToolStripMenuItem
             // 
             this.лабораторияToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -112,6 +153,24 @@
             this.лабораторияToolStripMenuItem.Name = "лабораторияToolStripMenuItem";
             this.лабораторияToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
             this.лабораторияToolStripMenuItem.Text = "Лаборатория";
+            // 
+            // заполнениеРезультатовToolStripMenuItem
+            // 
+            this.заполнениеРезультатовToolStripMenuItem.Name = "заполнениеРезультатовToolStripMenuItem";
+            this.заполнениеРезультатовToolStripMenuItem.Size = new System.Drawing.Size(287, 22);
+            this.заполнениеРезультатовToolStripMenuItem.Text = "Заполнение результатов";
+            // 
+            // выполнениеРезультатовToolStripMenuItem
+            // 
+            this.выполнениеРезультатовToolStripMenuItem.Name = "выполнениеРезультатовToolStripMenuItem";
+            this.выполнениеРезультатовToolStripMenuItem.Size = new System.Drawing.Size(287, 22);
+            this.выполнениеРезультатовToolStripMenuItem.Text = "Выполнение анализов организациями";
+            // 
+            // результатыАнализовToolStripMenuItem
+            // 
+            this.результатыАнализовToolStripMenuItem.Name = "результатыАнализовToolStripMenuItem";
+            this.результатыАнализовToolStripMenuItem.Size = new System.Drawing.Size(287, 22);
+            this.результатыАнализовToolStripMenuItem.Text = "Результаты анализов";
             // 
             // спарвочникиToolStripMenuItem
             // 
@@ -136,40 +195,6 @@
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(24, 20);
             this.toolStripMenuItem1.Text = "?";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(187, 6);
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(187, 6);
-            // 
-            // журналЗаявокToolStripMenuItem
-            // 
-            this.журналЗаявокToolStripMenuItem.Name = "журналЗаявокToolStripMenuItem";
-            this.журналЗаявокToolStripMenuItem.Size = new System.Drawing.Size(190, 30);
-            this.журналЗаявокToolStripMenuItem.Text = "Журнал заявок";
-            // 
-            // заполнениеРезультатовToolStripMenuItem
-            // 
-            this.заполнениеРезультатовToolStripMenuItem.Name = "заполнениеРезультатовToolStripMenuItem";
-            this.заполнениеРезультатовToolStripMenuItem.Size = new System.Drawing.Size(287, 22);
-            this.заполнениеРезультатовToolStripMenuItem.Text = "Заполнение результатов";
-            // 
-            // выполнениеРезультатовToolStripMenuItem
-            // 
-            this.выполнениеРезультатовToolStripMenuItem.Name = "выполнениеРезультатовToolStripMenuItem";
-            this.выполнениеРезультатовToolStripMenuItem.Size = new System.Drawing.Size(287, 22);
-            this.выполнениеРезультатовToolStripMenuItem.Text = "Выполнение анализов организациями";
-            // 
-            // результатыАнализовToolStripMenuItem
-            // 
-            this.результатыАнализовToolStripMenuItem.Name = "результатыАнализовToolStripMenuItem";
-            this.результатыАнализовToolStripMenuItem.Size = new System.Drawing.Size(287, 22);
-            this.результатыАнализовToolStripMenuItem.Text = "Результаты анализов";
             // 
             // toolStrip1
             // 
@@ -196,21 +221,6 @@
             this.toolStrip1.Size = new System.Drawing.Size(990, 33);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 33);
-            // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 33);
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 33);
             // 
             // toolStripButton2
             // 
@@ -262,6 +272,11 @@
             this.toolStripButton5.Size = new System.Drawing.Size(28, 30);
             this.toolStripButton5.Text = "toolStripButton5";
             // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 33);
+            // 
             // toolStripButton6
             // 
             this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -271,6 +286,17 @@
             this.toolStripButton6.Name = "toolStripButton6";
             this.toolStripButton6.Size = new System.Drawing.Size(28, 30);
             this.toolStripButton6.Text = "toolStripButton6";
+            // 
+            // toolStripButton11
+            // 
+            this.toolStripButton11.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton11.Image = global::TerraClient.Properties.Resources.Nomenclature;
+            this.toolStripButton11.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton11.Name = "toolStripButton11";
+            this.toolStripButton11.Size = new System.Drawing.Size(28, 30);
+            this.toolStripButton11.Text = "toolStripButton11";
+            this.toolStripButton11.ToolTipText = "Номенклатура";
+            this.toolStripButton11.Click += new System.EventHandler(this.toolStripButton11_Click);
             // 
             // toolStripButton7
             // 
@@ -302,6 +328,11 @@
             this.toolStripButton9.Size = new System.Drawing.Size(24, 30);
             this.toolStripButton9.Text = "toolStripButton9";
             // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 33);
+            // 
             // toolStripButton13
             // 
             this.toolStripButton13.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -322,6 +353,11 @@
             this.toolStripButton12.Size = new System.Drawing.Size(28, 30);
             this.toolStripButton12.Text = "toolStripButton12";
             // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 33);
+            // 
             // toolStripButton10
             // 
             this.toolStripButton10.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -332,41 +368,6 @@
             this.toolStripButton10.Size = new System.Drawing.Size(28, 30);
             this.toolStripButton10.Text = "toolStripButton10";
             this.toolStripButton10.Click += new System.EventHandler(this.toolStripButton10_Click);
-            // 
-            // заказыКлиентовToolStripMenuItem
-            // 
-            this.заказыКлиентовToolStripMenuItem.Image = global::TerraClient.Properties.Resources.Orders;
-            this.заказыКлиентовToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.заказыКлиентовToolStripMenuItem.Name = "заказыКлиентовToolStripMenuItem";
-            this.заказыКлиентовToolStripMenuItem.Size = new System.Drawing.Size(190, 30);
-            this.заказыКлиентовToolStripMenuItem.Text = "Заказы клиентов";
-            this.заказыКлиентовToolStripMenuItem.Click += new System.EventHandler(this.заказыКлиентовToolStripMenuItem_Click);
-            // 
-            // оплатаЗаказовToolStripMenuItem
-            // 
-            this.оплатаЗаказовToolStripMenuItem.Image = global::TerraClient.Properties.Resources.PayOrders;
-            this.оплатаЗаказовToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.оплатаЗаказовToolStripMenuItem.Name = "оплатаЗаказовToolStripMenuItem";
-            this.оплатаЗаказовToolStripMenuItem.Size = new System.Drawing.Size(190, 30);
-            this.оплатаЗаказовToolStripMenuItem.Text = "Оплата заказов";
-            // 
-            // кассаToolStripMenuItem
-            // 
-            this.кассаToolStripMenuItem.Image = global::TerraClient.Properties.Resources.Сashbox;
-            this.кассаToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.кассаToolStripMenuItem.Name = "кассаToolStripMenuItem";
-            this.кассаToolStripMenuItem.Size = new System.Drawing.Size(190, 30);
-            this.кассаToolStripMenuItem.Text = "Касса";
-            // 
-            // toolStripButton11
-            // 
-            this.toolStripButton11.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton11.Image = global::TerraClient.Properties.Resources.Nomenclature;
-            this.toolStripButton11.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton11.Name = "toolStripButton11";
-            this.toolStripButton11.Size = new System.Drawing.Size(28, 30);
-            this.toolStripButton11.Text = "toolStripButton11";
-            this.toolStripButton11.Click += new System.EventHandler(this.toolStripButton11_Click);
             // 
             // MainForm
             // 
