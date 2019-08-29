@@ -231,6 +231,7 @@
             this.toolStripButton2.Name = "toolStripButton2";
             this.toolStripButton2.Size = new System.Drawing.Size(28, 30);
             this.toolStripButton2.Text = "toolStripButton2";
+            this.toolStripButton2.ToolTipText = "Заказы";
             // 
             // toolStripButton3
             // 
@@ -241,6 +242,7 @@
             this.toolStripButton3.Name = "toolStripButton3";
             this.toolStripButton3.Size = new System.Drawing.Size(29, 30);
             this.toolStripButton3.Text = "toolStripButton3";
+            this.toolStripButton3.ToolTipText = "Касса";
             // 
             // toolStripButton4
             // 
@@ -261,6 +263,7 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(28, 30);
             this.toolStripButton1.Text = "toolStripButton1";
+            this.toolStripButton1.ToolTipText = "Внесение результатов";
             // 
             // toolStripButton5
             // 
@@ -271,6 +274,7 @@
             this.toolStripButton5.Name = "toolStripButton5";
             this.toolStripButton5.Size = new System.Drawing.Size(28, 30);
             this.toolStripButton5.Text = "toolStripButton5";
+            this.toolStripButton5.ToolTipText = "Результаты";
             // 
             // toolStripSeparator2
             // 
@@ -286,6 +290,7 @@
             this.toolStripButton6.Name = "toolStripButton6";
             this.toolStripButton6.Size = new System.Drawing.Size(28, 30);
             this.toolStripButton6.Text = "toolStripButton6";
+            this.toolStripButton6.ToolTipText = "Клиенты";
             // 
             // toolStripButton11
             // 
