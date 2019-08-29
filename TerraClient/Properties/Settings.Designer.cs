@@ -26,9 +26,9 @@ namespace TerraClient.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("character set=UTF8;data source=127.0.0.1;initial catalog=\"d:\\project\\c#\\clientTer" +
-            "ra\\Client\\example\\DB\\2.5\\EXAMPLES_2.5.fdb\";port number=3050;user id=sysdba;passw" +
-            "ord=masterkey;dialect=3;isolationlevel=Snapshot;pooling=True;server type=0")]
+        [global::System.Configuration.DefaultSettingValueAttribute("character set=UTF8;data source=127.0.0.1;initial catalog=\"terra\";port number=3050" +
+            ";user id=sysdba;password=masterkey;dialect=3;isolationlevel=Snapshot;pooling=Tru" +
+            "e;server type=0")]
         public string ConnectionString {
             get {
                 return ((string)(this["ConnectionString"]));

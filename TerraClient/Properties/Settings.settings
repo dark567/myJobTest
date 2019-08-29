@@ -5,10 +5,10 @@
     <Setting Name="ConnectionString" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;character set=UTF8;data source=127.0.0.1;initial catalog="d:\project\c#\clientTerra\Client\example\DB\2.5\EXAMPLES_2.5.fdb";port number=3050;user id=sysdba;password=masterkey;dialect=3;isolationlevel=Snapshot;pooling=True;server type=0&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;character set=UTF8;data source=127.0.0.1;initial catalog="terra";port number=3050;user id=sysdba;password=masterkey;dialect=3;isolationlevel=Snapshot;pooling=True;server type=0&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;FirebirdSql.Data.FirebirdClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">character set=UTF8;data source=127.0.0.1;initial catalog="d:\project\c#\clientTerra\Client\example\DB\2.5\EXAMPLES_2.5.fdb";port number=3050;user id=sysdba;password=masterkey;dialect=3;isolationlevel=Snapshot;pooling=True;server type=0</Value>
+      <Value Profile="(Default)">character set=UTF8;data source=127.0.0.1;initial catalog="terra";port number=3050;user id=sysdba;password=masterkey;dialect=3;isolationlevel=Snapshot;pooling=True;server type=0</Value>
     </Setting>
   </Settings>
 </SettingsFile>
