@@ -14,9 +14,13 @@ namespace DicGoods
 {
     public partial class DicGoods : Form
     {
+
         public DicGoods()
         {
             InitializeComponent();
+
+           // ModelDicGoods.AddDicGoods(new ModelDicGoods());
+
             DriveTreeInit();
         }
 
@@ -32,7 +36,8 @@ namespace DicGoods
 
             foreach (string s in getNomID("0"))
             {
-               TreeNode drive = new TreeNode(s, 0, 0);
+
+                TreeNode drive = new TreeNode(s, 0, 0);
                 //treeView1.Nodes.Add(getNomNameFromID(drive.Text.ToString()));
                 treeView1.Nodes.Add(drive);
 
@@ -60,7 +65,11 @@ namespace DicGoods
 
             foreach (string s in getNomID(node.Text.ToString()))
             {
-                TreeNode drive = new TreeNode(s, 1, 2);
+                // ModelDicGoods.AddDicGoods(new ModelDicGoods(s, getNomNameFromID(s)));
+                //  ModelDicGoods.AddDicGoods(new ModelDicGoods("s", "getNomNameFromID(s)"));
+                //ModelDicGoods.Add(s, getNomNameFromID(s));
+
+                  TreeNode drive = new TreeNode(s, 1, 2);
                 node.Nodes.Add(drive);
             }
         }
@@ -101,7 +110,6 @@ namespace DicGoods
             fb.Open();
             FbCommand SelectSQL = new FbCommand("SELECT id FROM dic_goods_grp where PARENT_ID = @cust_no ORDER BY name", fb);
             //add one IN parameter                     
-
             FbParameter nameParam = new FbParameter("@cust_no", ID);
             // добавляем параметр к команде
             SelectSQL.Parameters.Add(nameParam);
@@ -109,7 +117,7 @@ namespace DicGoods
             FbTransaction fbt = fb.BeginTransaction();
             SelectSQL.Transaction = fbt;
             FbDataReader reader = SelectSQL.ExecuteReader();
-            // SelectSQL.Parameters["cust_no"].Value = reader["0"];
+
             try
             {
 
@@ -123,6 +131,7 @@ namespace DicGoods
                 fbt.Commit();
                 reader.Close();
                 SelectSQL.Dispose();
+                fb.Close();
             }
 
             return Nom;
@@ -165,6 +174,7 @@ namespace DicGoods
                 fbt.Commit();
                 reader.Close();
                 SelectSQL.Dispose();
+                fb.Close();
             }
 
             return Nom;
